@@ -28,20 +28,6 @@ print(fib(10))
 
 
 
-''' Simple way'''
-'''
-def fib(n):
-    mem=[0]*(n+1)
-    if n<=1:
-        return n 
-    """memorization"""
-    mem[n]=fib(n-1)+fib(n-2)
-    return mem[n]
-
-print(fib(9))
-
-'''
-
 
 
 '''Bottom Up Approach'''
