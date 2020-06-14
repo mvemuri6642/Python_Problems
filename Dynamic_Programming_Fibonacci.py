@@ -21,7 +21,7 @@ def fib(n):
     '''memorization'''
     mem[n]=fib(n-1)+fib(n-2)
     return mem[n]
-print(fib(10))
+print(fib(8))
 
 
 
@@ -31,12 +31,12 @@ print(fib(10))
 
 
 '''Bottom Up Approach'''
-'''
+
 def fib(n):
     a=[0,1]
     for i in range(2,n+1):
         a.append(a[i-1]+a[i-2])
     return a[n]
-print(fib(8))
+n=int(input())
+print(fib(n))
 
-'''
