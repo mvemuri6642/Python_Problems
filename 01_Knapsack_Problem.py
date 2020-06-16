@@ -22,7 +22,7 @@ for i in range(n+1):
         else:
             a[i][j]=max(a[i-1][j],a[i-1][j-wt[i]]+val[i])
         
-print(a)
+print(a[i][j])
         
         
 
